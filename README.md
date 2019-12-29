@@ -1,6 +1,3 @@
-# Dokuz Eylül Üniversitesi
-# Izmir Meslek Yüksek Okulu
-
 # MobilUygulama-Proje
 # Diyet Uygulaması
 
