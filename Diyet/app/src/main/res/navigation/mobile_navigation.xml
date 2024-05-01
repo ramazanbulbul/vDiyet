@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_daily">
+
+    <fragment
+        android:id="@+id/navigation_daily"
+        android:name="me.ramazanbulbul.diet.ui.daily.DailyFragment"
+        android:label="@string/title_daily"
+        tools:layout="@layout/fragment_daily" />
+
+    <fragment
+        android:id="@+id/navigation_bmi"
+        android:name="me.ramazanbulbul.diet.ui.bmi.BMIFragment"
+        android:label="@string/title_bmi"
+        tools:layout="@layout/fragment_bmi" />
+
+    <fragment
+        android:id="@+id/navigation_dietProgram"
+        android:name="me.ramazanbulbul.diet.ui.dp.DPFragment"
+        android:label="@string/title_dietProgram"
+        tools:layout="@layout/fragment_dp" />
+    <fragment
+        android:id="@+id/navigation_dp_detail"
+        android:name="me.ramazanbulbul.diet.ui.dp.DPDetailFragment"
+        android:label="@string/title_dp_detail"
+        tools:layout="@layout/fragment_dp_detail" />
+    <fragment
+        android:id="@+id/navigation_sportProgram"
+        android:name="me.ramazanbulbul.diet.ui.sp.SPFragment"
+        android:label="@string/title_sportProgram"
+        tools:layout="@layout/fragment_sp" />
+    <fragment
+        android:id="@+id/navigation_game"
+        android:name="me.ramazanbulbul.diet.ui.game.GameFragment"
+        android:label="@string/title_game"
+        tools:layout="@layout/fragment_game" />
+</navigation>

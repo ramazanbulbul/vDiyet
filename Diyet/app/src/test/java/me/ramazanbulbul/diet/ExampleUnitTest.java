@@ -1,4 +1,4 @@
-package me.ramazanbulbul.diyet;
+package me.ramazanbulbul.diet;
 
 import org.junit.Test;
 

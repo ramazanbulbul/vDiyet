@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_dietProgram"
+        android:icon="@drawable/ic_banana"
+        android:title="@string/title_dietProgram" />
+
+    <item
+        android:id="@+id/navigation_sportProgram"
+        android:icon="@drawable/ic_muscles"
+        android:title="@string/title_sportProgram" />
+    <item
+        android:id="@+id/navigation_daily"
+        android:icon="@drawable/ic_home"
+        android:title="@string/title_daily" />
+    <item
+        android:id="@+id/navigation_bmi"
+        android:icon="@drawable/ic_weight_scale"
+        android:title="@string/title_bmi" />
+    <item
+        android:id="@+id/navigation_game"
+        android:icon="@drawable/ic_console"
+        android:title="@string/title_game" />
+
+</menu>

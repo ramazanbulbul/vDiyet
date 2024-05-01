@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Diyet</string>
+    <string name="app_name">VDiyet</string>
+    <string name="title_daily">Günlük</string>
+    <string name="title_dietProgram">Diyet Programı</string>
+    <string name="title_sportProgram">Spor Programı</string>
+    <string name="title_bmi">VKE</string>
+    <string name="title_game">Oyun</string>
+    <string name="title_dp_detail">Oyun</string>
 </resources>
